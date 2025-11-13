@@ -9,17 +9,11 @@ Thumbs.db
 *.swp
 *.swo
 
-# Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.env.local
-frontend/.env.*.local
+# Dependencies
+node_modules/
+dist/
 
-# Backend
-backend/bin/
-backend/obj/
-backend/*.db
-backend/*.db-shm
-backend/*.db-wal
-backend/appsettings.Development.json
+# Environment
+.env.local
+.env.*.local
 
